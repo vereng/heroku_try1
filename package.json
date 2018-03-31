@@ -1,0 +1,29 @@
+{
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "assert": "latest",
+    "bluebird": "latest",
+    "body-parser": "^1.14.1",
+    "csv": "latest",
+    "ejs": "~0.8.5",
+    "express": "^4.16.2",
+    "express-session": "~1.11.3",
+    "fs": "0.0.1-security",
+    "mongoose": "~4.10.8",
+    "node": "^8.9.1",
+    "passport": "latest",
+    "passport-local": "latest",
+    "passport-local-mongoose": "latest",
+    "path": "latest",
+    "supervisor": "~0.5.7",
+    "util": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}

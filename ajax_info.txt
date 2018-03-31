@@ -1,0 +1,4 @@
+{"AJAX":true,
+"AJAX_is": "not a programming language.",
+"AJAX_was":" for accessing web servers from a web page",
+"AJAX_stands": "for Asynchronous JavaScript And XML."}

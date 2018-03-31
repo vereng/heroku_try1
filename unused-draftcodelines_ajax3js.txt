@@ -1,0 +1,53 @@
+--
+
+<!--
+//url:  'ajax_info.txt' *****file read on server by fs.readfile and send as string friends_string via ajax
+//  xhttp.load("GET",'/reports/ajax_info.txt',false);
+	//document.getElementById("demo").innerHTML =  this.getAllResponseHeaders();}     //};
+  //similar to:     xhttp.open("GET",'ajax_info.txt',true);  xhttp.send(null);
+//similar also:   $.get('ajax_info.txt',true).done(function (data){
+/*
+// xhttp.onreadystatechange = function() {
+//    if (this.readyState == 4 && this.status == 200)
+  //file:///Users/meltemi/Sites/mysite/index.html
+  //xhttp.open("GET",'D:\GitHub\js_exmpls\exmpl2_ajx\ajax_info.txt', true);
+if(ajax.checkReadyState('body', 'loading...', 'loading...', 'loading...') == "OK")
+{document.getElementById('body').innerHTML = ajax.request.responseText;}
+        //a.href = window.URL.createObjectURL('http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js');
+*/   -->
+	  <!-- src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> -->
+          <!--   $(document).ready(function() {
+            //alert($('h1').length);
+	    $('#test').load('http://19    -->
+<!-- <script>
+     $("#result" ).load( "ajax/test.html #container" );
+ $("#result" ).load( "ajax/test.html", function() {
+  alert( "Load was performed." );
+});
+$(document).ready(function(){
+                $("#secondPage").load("mySecondHtmlPage.html");
+            });
+	    document.write($_POST["test"]);
+</script>
+-->
+<!--	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js> </script>    -->
+<!-- <script src="d:/GitHub/js_exmpls/jquery-3.2.1.min.js"></script>   -->  
+ <!-- //<script  src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+<!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.5/jquery.min.js"></script>      -->
+<!--<script  src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  --> 
+<!--  <script  src="http://ajax.googleapis.com/ajax/libs/jquery/2.1/jquery.min.js"></script>   --> 
+
+<!--     function downloadURI(uri, name) 
+{ var link = document.createElement("a");
+    link.download = name;
+    link.href = uri;
+    link.click();}   -->
+
+<!--    $( "#result" ).load( "ajax/test.html #container" );//jquery retrievestest.container into div.result    -->
+<!--    $( "#a" ).load( "article.html" );  //any script included in a is executed    -->
+<!--    $( "#b" ).load( "article.html #target" ); //any scripts ncluded in b are not executed    -->
+<!--     $( "div" ).data( "test", { first: 16, last: "pizza!" } );
+$( "span:first" ).text( $( "div" ).data( "test" ).first );
+$( "span:last" ).text( $( "div" ).data( "test" ).last );       -->
+<!--  -====== end  various usefull jquery retrieve data/text into html page=======     -->
+
