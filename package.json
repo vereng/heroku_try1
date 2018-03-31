@@ -12,11 +12,7 @@
     "fs": "0.0.1-security",
     "mongoose": "~4.10.8",
     "node": "^8.9.1",
-    "passport": "latest",
-    "passport-local": "latest",
-    "passport-local-mongoose": "latest",
     "path": "latest",
-    "supervisor": "~0.5.7",
     "util": "latest"
   },
   "devDependencies": {},
