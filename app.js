@@ -32,7 +32,7 @@ friends_json.e="Qrill";
 	  
 var app = express();
 
-app.set('port', process.env.PORT || 5050);
+app.set('port', process.env.PORT || 8080);
 
 // =============viewss================
 app.set('views', __dirname + '/views');
@@ -79,4 +79,4 @@ res.write(string2);}
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Application listening on port ' + app.get('port'));
 }); 
-console.log('Server Started listening on 5050');
+console.log('Server Started listening on 8080');
